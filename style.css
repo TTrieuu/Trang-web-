@@ -1,0 +1,26 @@
+        .body { margin: 0; font-family: Roboto, Tahoma, Verdana, Courier New; background-color: #f5f5f5; }
+        .menu { background-color: #006699; text-align: center; padding: 15px 0; }
+        .menu a { color: white; text-decoration: none; margin: 0 20px; font-size: 18px; font-weight: bold; }
+        .tieude { text-align: center; padding: 40px 20px; }
+        .tieude h1{ margin: 0; font-size: 40px; color: white; }
+        .tieude p{ margin-top: 10px; font-size: 18px; color: white; }
+        .noidung { max-width: 900px;margin: 40px auto; padding: 0 20px;}
+        .noidung p{ font-size: 21px; line-height: 2; text-align: justify; }
+        .footer { background-color: #006699; color: white; text-align: center; padding: 12px; font-size: 18px;}
+        .image { width: 70%; max-width: 700px; display: block; margin: 20px auto;}
+        .image { display: flex; justify-content: center; gap:10px }
+        .video { width: 100%; max-width: 700px; display: block; margin: 20px auto;}
+        .banner {display: flex;align-items: center;gap: 20px;background-image: url("ok.webp");background-size: cover;background-position: center;padding: 20px 30px;color: white;position: relative;}
+        .banner::before {content: "";position: absolute;inset: 0;background: rgba(0,0,0,0.4);}
+        .banner > * {position: relative;}
+        .logo {width: 80px;}
+        .header-text h1 { margin: 0;}
+        .header-text p {margin: 0;}
+        .header-text {text-align: center;width: 100%;}
+        .banner {justify-content: center;} 
+        .logo {width: 80px;margin-bottom: 15px;}
+        .header-text h1 { margin: 0;}
+        .header-text p {margin: 5px 0 0;}
+        .danhgia {max-width: 400px;  margin: auto;}
+        .danhgia textarea { width: 100%;box-sizing: border-box;}
+        .danhgia button {background:#d3ecf1;color: black;}
